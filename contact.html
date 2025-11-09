@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contactez-Nous - Amenuveve Market</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <header>
+        <!--ICI COMMENCE L'ENTêTE DU SITE-->
+        <h1><mark class="mark"> Ste Amenuveve Market</mark>
+            <em> Le Coin des ACHETEURS</em></h1>
+        <!--ICI FINIT L'ENTêTE DU SITE-->
+    </header>
+        <section>
+            <article>
+                <h2>Contactez-Nous</h2>
+                <p>Nous serions ravis de vous aider ! Veuillez remplir le formulaire ci-dessous pour toute question ou demande d'assistance.</p>
+            </article>
+        </section>
+<form action="post">
+    <label for="name">Nom:</label>
+    <input type="text" id="name" name="name" required><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+    <label for="subject">Téléphone:</label>
+    <input type="tel" id="phone" name="phone" required><br><br>
+    <select name="inquiry-type" id="inquiry-type" required>
+        <option value="" disabled selected>Type de demande</option>
+        <option value="product-info">Informations sur les produits</option>
+        <option value="order-status">Statut de la commande</option>
+        <option value="returns">Retours et échanges</option>
+        <option value="other">Autre</option>
+    </select><br><br>
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+    <button>Envoyer</button>
+</form>
+    <footer>
+<div>
+        <nav>  
+            <main>
+                <form action="recherche.html" method="get">
+                    <input type="text" name="query" placeholder="Rechercher un produit...">
+                    <button type="submit">Rechercher</button>
+                </form>
+            </main>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="produits.html">Produits</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        </div>
+        <p>&copy; 2024 Amenuveve Market. Au plaisir de vous revoir!.</p>
+    </footer>   
+    </body>
+</html>
